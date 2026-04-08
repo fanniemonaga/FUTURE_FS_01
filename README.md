@@ -32,8 +32,7 @@ No build tools or dependencies required. This is a plain HTML/CSS/JS project.
 
 1. Clone or download the project files.
 2. Place all images in the `images/` folder as shown above.
-3. Place your CV PDF (`mMakgananisa Fannie CV.pdf`) in the root folder.
-4. Open `index.html` in any modern browser — or deploy to a hosting platform.
+3. Open `index.html` in any modern browser — or deploy to a hosting platform.
 
 ---
 

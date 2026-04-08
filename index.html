@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fannie Monaga — Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ── NAVIGATION ── -->
+    <nav id="navbar">
+        <a href="#" class="nav-logo">Fannie Monaga Makgananisa<span>.</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1 class="hero-name">
+                Makgananisa<br>
+                Fannie<br>
+                <em>Monaga</em>
+            </h1>
+            <p class="hero-desc">Computer Science graduate building elegant digital experiences — web, mobile, and everything in between.</p>
+            <a href="#portfolio" class="hero-cta">View My Work <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-right">
+            <!-- Image: first.JPG -->
+            <img src="images/first.JPG" class="hero-img" alt="Makgananisa Fannie Monaga">
+            <div class="hero-right-overlay">
+                <div class="hero-stats">
+                    <div>
+                        <div class="hero-stat-num">7+</div>
+                        <div class="hero-stat-label">Projects built</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-num">3</div>
+                        <div class="hero-stat-label">Years learning</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-num">∞</div>
+                        <div class="hero-stat-label">Drive to grow</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills">
+        <div class="section-label">What I do</div>
+        <h2 class="section-heading">Core <em>Skills</em></h2>
+        <div class="skills-grid">
+            <div class="skill-block reveal">
+                <div class="skill-num">01</div>
+                <div class="skill-icon-wrap"><i class="fa-solid fa-code"></i></div>
+                <h3 class="skill-title">Front-end Development</h3>
+                <p class="skill-desc">Proficient in HTML, CSS, JavaScript, and modern frameworks like React. Building responsive, accessible, and performant user interfaces that work beautifully across devices.</p>
+            </div>
+            <div class="skill-block reveal">
+                <div class="skill-num">02</div>
+                <div class="skill-icon-wrap"><i class="fa-solid fa-server"></i></div>
+                <h3 class="skill-title">Back-end Development</h3>
+                <p class="skill-desc">Skilled in Node.js + Express for building scalable APIs and server logic. Comfortable with RESTful services and integrating databases (MySQL, MongoDB basics).</p>
+            </div>
+            <div class="skill-block reveal">
+                <div class="skill-num">03</div>
+                <div class="skill-icon-wrap"><i class="fa-solid fa-mobile-screen"></i></div>
+                <h3 class="skill-title">Mobile App Development</h3>
+                <p class="skill-desc">Developing cross-platform mobile apps using React Native. Creating smooth, native-feeling experiences for iOS and Android from a single codebase.</p>
+            </div>
+            <div class="skill-block reveal">
+                <div class="skill-num">04</div>
+                <div class="skill-icon-wrap"><i class="fa-solid fa-code-branch"></i></div>
+                <h3 class="skill-title">TypeScript & Modern JS</h3>
+                <p class="skill-desc">Using TypeScript to write safer, more maintainable code in both front-end (React) and back-end (Node.js) projects. Strong grasp of ES6+ features, async/await, and modular code.</p>
+            </div>
+            <div class="skill-block reveal">
+                <div class="skill-num">05</div>
+                <div class="skill-icon-wrap"><i class="fa-solid fa-link"></i></div>
+                <h3 class="skill-title">API Development & Integration</h3>
+                <p class="skill-desc">Designing and consuming REST APIs, handling authentication (JWT), data fetching, and basic GraphQL queries. Experienced in connecting front-end to back-end seamlessly.</p>
+            </div>
+            <div class="skill-block reveal">
+                <div class="skill-num">06</div>
+                <div class="skill-icon-wrap"><i class="fa-solid fa-cloud"></i></div>
+                <h3 class="skill-title">Deployment & Version Control</h3>
+                <p class="skill-desc">Proficient with Git for version control and collaboration. Deploying web & mobile projects to platforms like Vercel, Netlify, Render, and basic cloud concepts (AWS S3, hosting).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PORTFOLIO ── -->
+    <section id="portfolio">
+        <div class="portfolio-header">
+            <div>
+                <div class="section-label">Selected projects</div>
+                <h2 class="section-heading">My <em>Work</em></h2>
+            </div>
+        </div>
+        <div class="portfolio-grid">
+
+            <div class="port-card reveal" style="--aspect: 4 / 3;">
+                <div class="port-media">
+                    <!-- Image: portfolio-preview.png -->
+                    <img src="images/portfolio-preview.png" alt="Personal Portfolio" style="object-fit: cover; object-position: top;">
+                </div>
+                <div class="port-overlay">
+                    <div class="port-tags">
+                        <span class="port-tag">HTML</span>
+                        <span class="port-tag">CSS</span>
+                        <span class="port-tag">JavaScript</span>
+                    </div>
+                    <h3 class="port-title">Personal Portfolio</h3>
+                    <p class="port-excerpt">My personal developer portfolio — the site you're on right now</p>
+                </div>
+                <a href="https://fanniemonaga-portfolio.vercel.app/" class="port-link" target="_blank" rel="noopener">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="port-card reveal" style="--aspect: 4 / 3;">
+                <div class="port-media">
+                    <!-- Image: devportfolio-preview.png -->
+                    <img src="images/devportfolio-preview.png" alt="DevPortfolio Builder" style="object-fit: contain; object-position: center; background: #0a0a14;">
+                </div>
+                <div class="port-overlay">
+                    <div class="port-tags">
+                        <span class="port-tag">React</span>
+                        <span class="port-tag">Node.js</span>
+                        <span class="port-tag">SQLite</span>
+                        <span class="port-tag">Vercel</span>
+                    </div>
+                    <h3 class="port-title">DevPortfolio Builder</h3>
+                    <p class="port-excerpt">Full-stack SaaS — generate & host developer portfolios instantly</p>
+                </div>
+                <a href="https://dev-portfolio-builder-u7dz.vercel.app/" class="port-link" target="_blank" rel="noopener">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="port-card reveal" style="--aspect: 4 / 3;">
+                <div class="port-media">
+                    <!-- Image: expense-tracker-preview.png -->
+                    <img src="images/expense-tracker-preview.png" alt="Expense Tracker" style="object-fit: contain; object-position: center; background: #0d1117;">
+                </div>
+                <div class="port-overlay">
+                    <div class="port-tags">
+                        <span class="port-tag">React</span>
+                        <span class="port-tag">JavaScript</span>
+                        <span class="port-tag">Vercel</span>
+                    </div>
+                    <h3 class="port-title">Expense Tracker</h3>
+                    <p class="port-excerpt">Personal finance dashboard to track and manage your expenses</p>
+                </div>
+                <a href="https://expense-tracker-chi-green.vercel.app/" class="port-link" target="_blank" rel="noopener">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="port-card reveal" style="--aspect: 4 / 3;">
+                <div class="port-media">
+                    <!-- Image: translator.png -->
+                    <img src="images/translator.png" alt="Language Translator">
+                </div>
+                <div class="port-overlay">
+                    <div class="port-tags">
+                        <span class="port-tag">HTML</span>
+                        <span class="port-tag">CSS</span>
+                        <span class="port-tag">JavaScript</span>
+                    </div>
+                    <h3 class="port-title">Language Translator</h3>
+                    <p class="port-excerpt">Real-time multi-language translation tool with clean UI</p>
+                </div>
+                <a href="https://lingomanipulator.42web.io/" class="port-link" target="_blank" rel="noopener">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="port-card reveal" style="--aspect: 4 / 3;">
+                <div class="port-media">
+                    <!-- Image: landing-page.png -->
+                    <img src="images/landing-page.png" alt="Landing Page">
+                </div>
+                <div class="port-overlay">
+                    <div class="port-tags">
+                        <span class="port-tag">HTML</span>
+                        <span class="port-tag">CSS</span>
+                        <span class="port-tag">Bootstrap</span>
+                    </div>
+                    <h3 class="port-title">Responsive Landing Page</h3>
+                    <p class="port-excerpt">Modern marketing layout, mobile-first approach</p>
+                </div>
+                <a href="#" class="port-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+            <div class="port-card reveal" style="--aspect: 4 / 3;">
+                <div class="port-media">
+                    <!-- Image: library.png -->
+                    <img src="images/library.png" alt="Education">
+                </div>
+                <div class="port-overlay">
+                    <div class="port-tags">
+                        <span class="port-tag">HTML</span>
+                        <span class="port-tag">CSS</span>
+                        <span class="port-tag">JavaScript</span>
+                    </div>
+                    <h3 class="port-title">Education Platform</h3>
+                    <p class="port-excerpt">Interactive learning dashboard concept</p>
+                </div>
+                <a href="#" class="port-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+            <div class="port-card reveal" style="--aspect: 4 / 3;">
+                <div class="port-media">
+                    <!-- Image: blog.jpg -->
+                    <img src="images/blog.jpg" alt="Blog">
+                </div>
+                <div class="port-overlay">
+                    <div class="port-tags">
+                        <span class="port-tag">HTML</span>
+                        <span class="port-tag">CSS</span>
+                        <span class="port-tag">PHP</span>
+                    </div>
+                    <h3 class="port-title">Blog Website</h3>
+                    <p class="port-excerpt">Dynamic content management with clean typography</p>
+                </div>
+                <a href="#" class="port-link"><i class="fas fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+        <div class="section-label">The story</div>
+        <h2 class="section-heading">About <em>Me</em></h2>
+        <div class="about-grid">
+            <div class="about-sticky reveal">
+                <div class="about-img-wrap">
+                    <!-- Image: profile-img.jpeg -->
+                    <img src="images/profile-img.jpeg" class="about-img" alt="Fannie Monaga">
+                    <div class="about-img-badge">CS<br>Grad</div>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="t-item reveal">
+                    <div class="t-year">2016–2020</div>
+                    <div>
+                        <div class="t-title">Early Passion for Technology</div>
+                        <p class="t-body">From an early age, I became fascinated with computers and programming. Starting with basic HTML and CSS, I gradually expanded my skills to include JavaScript and various frameworks, driven by pure curiosity.</p>
+                    </div>
+                </div>
+                <div class="t-item reveal">
+                    <div class="t-year">2021–2024</div>
+                    <div>
+                        <div class="t-title">Higher Education & Career Growth</div>
+                        <p class="t-body">During my university years at Tshwane University of Technology, I studied computer science and gained hands-on experience through internships and freelance projects — fueling my passion for creating innovative solutions.</p>
+                    </div>
+                </div>
+                <div class="t-item reveal">
+                    <div class="t-year">2024–2025</div>
+                    <div>
+                        <div class="t-title">Professional Excellence</div>
+                        <p class="t-body">As a Software Developer at InvesthoodIT, I've consistently sought opportunities to refine my skills and stay updated with the latest technologies, striving for excellence in every project I undertake.</p>
+                    </div>
+                </div>
+                <div class="t-item reveal">
+                    <div class="t-year">Now - Future</div>
+                    <div>
+                        <div class="t-title">Continuing to Make a Difference</div>
+                        <p class="t-body">I'm committed to leveraging my skills and expertise to contribute to meaningful projects that have a positive impact on society and the people around me.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CV ── -->
+    <section id="cv">
+        <div class="section-label">Credentials</div>
+        <h2 class="section-heading">Curriculum <em>Vitae</em></h2>
+        <div class="cv-grid">
+            <div class="cv-sidebar reveal">
+                <!-- Image: profile-img.jpeg -->
+                <img src="images/profile-img.jpeg" class="cv-photo" alt="Fannie Monaga">
+                <div class="cv-contact-item"><i class="fas fa-envelope"></i> fanniemonaga851@gmail.com</div>
+                <div class="cv-contact-item"><i class="fas fa-phone"></i> 063 767 2359</div>
+                <div class="cv-social">
+                    <a href="https://wa.me/27637672359" class="cv-social-link" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://twitter.com/fanniemonaga851" class="cv-social-link" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://facebook.com/Fannie.Makgananisa" class="cv-social-link" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://linkedin.com/in/fannie-monaga-makgananisa-a9a430290" class="cv-social-link" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <div class="cv-section-title" style="margin-top:0">Tech Stack</div>
+                    <div class="cv-skills-tags">
+                        <span class="cv-tag">HTML</span><span class="cv-tag">CSS</span>
+                        <span class="cv-tag">JavaScript</span><span class="cv-tag">TypeScript</span>
+                        <span class="cv-tag">React</span><span class="cv-tag">React Native</span>
+                        <span class="cv-tag">Node.js</span>
+                        <span class="cv-tag">MySQL</span><span class="cv-tag">Git</span>
+                        <span class="cv-tag">Java</span>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal">
+                <p class="cv-entry-body" style="font-size:1rem; line-height:1.8; color:var(--muted); max-width:580px;">
+                    A dedicated and detail-oriented software developer with a passion for solving complex problems and building efficient, user-friendly solutions. My background includes hands-on experience in designing, developing, and maintaining software applications across web and mobile platforms.
+                </p>
+                <div class="cv-section-title">Education</div>
+                <div class="cv-entry">
+                    <div class="cv-entry-title">Diploma in Computer Science</div>
+                    <div class="cv-entry-sub">Tshwane University of Technology</div>
+                    <span class="cv-entry-date">2021 — 2024</span>
+                </div>
+                <div class="cv-section-title">Work Experience</div>
+                <div class="cv-entry">
+                    <div class="cv-entry-title">Software Developer</div>
+                    <div class="cv-entry-sub">InvesthoodIT</div>
+                    <span class="cv-entry-date">2024 — 2025</span>
+                    <p class="cv-entry-body">Developing and maintaining web applications, collaborating with the team to deliver high-quality software solutions and expanding expertise in modern development practices.</p>
+                </div>
+                <!-- CV PDF: place "mMakgananisa Fannie CV.pdf" in the root folder -->
+                <a href="mMakgananisa Fannie CV.pdf" class="btn-download" download>
+                    <i class="fas fa-download"></i> Download Full CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+        <div class="contact-left">
+            <div class="section-label">Get in touch</div>
+            <h2 class="section-heading">Let's <em>Work</em><br>Together</h2>
+            <div class="contact-info">
+                <div class="contact-info-item"><i class="fas fa-envelope"></i> fanniemonaga851@gmail.com</div>
+                <div class="contact-info-item"><i class="fas fa-phone"></i> 063 767 2359</div>
+                <div class="contact-info-item"><i class="fab fa-whatsapp"></i> WhatsApp: 063 767 2359</div>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form id="contactForm">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem" class="form-row">
+                    <div class="form-group">
+                        <input type="text" class="form-input" name="user_name" placeholder="Your Name" required>
+                        <div class="invalid-msg" id="nameErr">Name must be at least 2 characters</div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" name="user_email" placeholder="Your Email" required>
+                        <div class="invalid-msg" id="emailErr">Please enter a valid email</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-input" name="user_phone" placeholder="Your Phone" required>
+                    <div class="invalid-msg" id="phoneErr">Please enter a valid phone number</div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-input" name="message" placeholder="Your Message" required></textarea>
+                    <div class="invalid-msg" id="msgErr">Message must be at least 10 characters</div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-send" id="submitBtn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <a href="https://wa.me/27637672359" class="btn-wa" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </div>
+                <p id="formResponse"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <p>© 2026 Fannie Monaga Makgananisa. All rights reserved.</p>
+        <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+    </footer>
+
+    <!-- ── SCRIPTS ── -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
